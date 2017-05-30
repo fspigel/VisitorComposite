@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1495637940 source:/.home/student1/maselen/VisitorComposite/Component.cpp
+	"Component.h"
+	<stdexcept>
+
+1495638677 /.home/student1/maselen/VisitorComposite/Component.h
+	"HTMLVisitor.h"
+	<vector>
+	<fstream>
+
+1495639285 /.home/student1/maselen/VisitorComposite/HTMLVisitor.h
+
+1495638652 source:/.home/student1/maselen/VisitorComposite/main.cpp
+	"Component.h"
+	"HTMLVisitor.h"
+	<iostream>
+	<stdexcept>
+
+1496108001 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.cpp
+	"Component.h"
+	"Composite.h"
+	"HTMLVisitor.h"
+	<stdexcept>
+	<iostream>
+
+1496103852 c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.h
+	<vector>
+	<fstream>
+
+1496101289 c:\users\fspig\documents\projects\code blocks\visitorcomposite\htmlvisitor.h
+
+1496107916 c:\users\fspig\documents\projects\code blocks\visitorcomposite\composite.h
+	"Component.h"
+	"HTMLVisitor.h"
+	<string>
+
+1496108019 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\main.cpp
+	"Component.h"
+	"HTMLVisitor.h"
+	<iostream>
+	<stdexcept>
+	"Iterator.h"
+
+1495742972 c:\users\fspig\documents\projects\code blocks\visitorcomposite\iterator.h
+	<stack>
+	"Component.h"
+
+1495742972 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\iterator.cpp
+	"Iterator.h"
+	<vector>
+
+1496103868 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\htmlvisitor.cpp
+	"HTMLVisitor.h"
+	"Component.h"
+	"Composite.h"
+	<iostream>
+
