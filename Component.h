@@ -16,9 +16,8 @@ public:
     Component * removeComponent(const Component *);
 
     void read(std::ifstream &);
-    void LoadNextBlock(std::ifstream &, std::string &);
-    bool HasChapter();
-    CompType type(std::string);
+
+    void print();
 
     std::vector<Component *> mChildren;
     Component * mParent;
@@ -29,6 +28,12 @@ public:
 
     //Visitor:
     virtual void accept(HTMLVisitor *);
+
+private:
+    void LoadNextBlock(std::ifstream &, std::string &);
+    bool HasChapter();
+    CompType type(std::string);
+
 };
 
 #endif

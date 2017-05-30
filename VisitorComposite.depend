@@ -16,14 +16,14 @@
 	<iostream>
 	<stdexcept>
 
-1496108001 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.cpp
+1496139286 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.cpp
 	"Component.h"
 	"Composite.h"
 	"HTMLVisitor.h"
 	<stdexcept>
 	<iostream>
 
-1496103852 c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.h
+1496138918 c:\users\fspig\documents\projects\code blocks\visitorcomposite\component.h
 	<vector>
 	<fstream>
 
@@ -34,7 +34,7 @@
 	"HTMLVisitor.h"
 	<string>
 
-1496108019 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\main.cpp
+1496139108 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\main.cpp
 	"Component.h"
 	"HTMLVisitor.h"
 	<iostream>
@@ -49,7 +49,7 @@
 	"Iterator.h"
 	<vector>
 
-1496103868 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\htmlvisitor.cpp
+1496139334 source:c:\users\fspig\documents\projects\code blocks\visitorcomposite\htmlvisitor.cpp
 	"HTMLVisitor.h"
 	"Component.h"
 	"Composite.h"

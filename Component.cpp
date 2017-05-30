@@ -28,7 +28,6 @@ void Component::read(std::ifstream & str) {
 
     //Load first title:
     LoadNextBlock(str, currentBlock);
-    if(type(currentBlock) == title) cout << endl << "IS TITLE!" << endl;
     mChildren.push_back(new Title(currentBlock));
 
     while(!str.eof()){
@@ -56,12 +55,10 @@ void Component::read(std::ifstream & str) {
 void Component::LoadNextBlock(ifstream & stream, string & block){
     string currentLine;
     while(!stream.eof() && currentLine.empty()){
-        cout << "Line: " << currentLine << endl;
         getline(stream, currentLine);
     }
 
     while(!stream.eof() && !currentLine.empty()){
-        cout << "Line: " << currentLine << endl;
         block.append(currentLine).append("\n");
         getline(stream, currentLine);
     }
@@ -82,4 +79,11 @@ Component::CompType Component::type(string s){
     else return paragraph;
 }
 
-void Component::accept(HTMLVisitor * v){}
+void Component::print(){
+    cout << endl << text << endl;
+    for(auto & comp : mChildren) comp->print();
+}
+
+void Component::accept(HTMLVisitor * v){
+    v->Transform(this);
+}
