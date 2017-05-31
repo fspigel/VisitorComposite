@@ -2,6 +2,9 @@
 #define COMPONENT_H_INCLUDED
 #include <vector>
 #include <fstream>
+#include <string>
+
+using namespace std;
 
 class HTMLVisitor;
 
@@ -32,6 +35,7 @@ public:
 private:
     void LoadNextBlock(std::ifstream &, std::string &);
     bool HasChapter();
+    bool HasTitle();
     CompType type(std::string);
 
 };

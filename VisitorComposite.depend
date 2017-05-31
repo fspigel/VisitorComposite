@@ -55,3 +55,34 @@
 	"Composite.h"
 	<iostream>
 
+1496243800 source:c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\component.cpp
+	"Component.h"
+	"Composite.h"
+	"HTMLVisitor.h"
+	<stdexcept>
+	<iostream>
+
+1496243800 c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\component.h
+	<vector>
+	<fstream>
+	<string>
+
+1496145135 c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\composite.h
+	"Component.h"
+	"HTMLVisitor.h"
+	<string>
+
+1496243817 c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\htmlvisitor.h
+
+1496243816 source:c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\htmlvisitor.cpp
+	"HTMLVisitor.h"
+	"Component.h"
+	"Composite.h"
+	<iostream>
+
+1496242689 source:c:\users\fspigel\desktop\cb stuff\smfl_project2 - copy (2)\visitorcomposite\main.cpp
+	"Component.h"
+	"HTMLVisitor.h"
+	<iostream>
+	<stdexcept>
+
